@@ -1,0 +1,141 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #EDEDED;
+    background-image: url(/img/bg.png);
+    background-repeat: repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: 'Rafael';
+    src: url(/fonts/Champagne.ttf);
+}
+
+@font-face {
+    font-family: 'Rafael';
+    src: url(/fonts/Champagne\ Bold.ttf);
+    font-weight: bold;
+}
+
+.header{
+    background-image: url("/img/head1.png");
+    background-repeat: repeat;
+    height: 8vh;
+    border-bottom: 2px solid #e6e8ec;
+    }
+
+.header a{
+    text-decoration: none;
+    padding: 1vh;
+    color: #606a77;
+}
+
+#about{
+    background-color: transparent;
+    margin-top:2vh;
+}
+
+#about .container{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+
+#about .container .box{
+    width: 55vw;
+    padding:1vw;
+}
+
+#about .container .imagem{
+    width: 35vw;
+}
+
+#about .container .imagem img{
+    width: 80%;
+    border: 8px solid #fff;
+    box-shadow: 0 0 1vh #606a77;
+}
+
+#about h1{
+    font-family: Rafael;
+    font-weight: bold;
+    font-size:3vw;
+}
+
+h2{
+    font-family: Rafael;
+    font-weight: bold;
+    font-size:5vh;
+    text-decoration: underline;
+}
+
+.foto img{
+    max-height: 60vh;
+    border: 2vw solid white;
+    border-bottom: 7vw solid white;
+    margin: 2vw;
+    box-shadow: 0 0 1vw #959eaa;
+    float: left;
+}
+
+.botao{background-color: transparent;}
+
+.botao a{
+    border: 1px solid #B5C1D1;
+    background-color: #B5C1D1;
+    background-image: url("/img/head1.png");
+    padding:1vw;
+    border-radius: 1vw;
+    margin: 0.5vw;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #bbbbbb;
+    font-size: medium;
+}
+
+.botao a:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #606a77;
+}
+
+#skills{
+    background-color: transparent;
+}
+
+#skills .container{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills .container .box{
+    width: 25vw;
+}
+
+#experiencia{
+    padding: 3vw;
+}
+
+#experiencia p{text-justify: distribute;}
+
+#experiencia empresa{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#experiencia posicao{
+    font-weight: bolder;
+}
+
+#experiencia periodo{
+    font-weight: bolder;
+    font-size: small;
+}

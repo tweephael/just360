@@ -1,0 +1,55 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #EDEDED;
+}
+
+body{
+    margin: 4vw;
+    padding: 4vw;
+    background-color: #D7DBE1;
+    border-radius: 2vw;
+    border: 1px solid #B5B7BB;
+    box-shadow: 0 0 2vw #BCCADF;
+    background-image: url(rafael.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Rafael';
+    src: url(/fonts/Champagne.ttf);
+}
+
+@font-face {
+    font-family: 'Rafael';
+    src: url(/fonts/Champagne\ Bold.ttf);
+    font-weight: bold;
+}
+
+.container{
+    font-size: 10vh;
+    font-family: Rafael;
+    width: 50vw;
+    float: right;
+    margin-top: 10vh;
+    font-weight: bold;
+}
+
+.container a{
+    border: 1px solid #B5C1D1;
+    background-color: #B5C1D1;
+    padding:1vw;
+    border-radius: 1vw;
+    margin: 0.5vw;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #606a77;
+    font-size: medium;
+}
+
+.container a:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #606a77;
+}

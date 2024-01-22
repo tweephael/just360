@@ -1,0 +1,182 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #EDEDED;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Rafael';
+    src: url(/fonts/Champagne.ttf);
+}
+
+@font-face {
+    font-family: 'Hand';
+    src: url(/fonts/Modesta.otf);
+}
+
+@font-face {
+    font-family: 'Rafael';
+    src: url(/fonts/Champagne\ Bold.ttf);
+    font-weight: bold;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12vh;
+    background-color: #3B9086;
+    border-bottom: 1px solid #0D4D4D;
+    transition: 0.8s;
+    box-shadow: 0 0 2vh #012222;
+  }
+
+#menu .container{padding:3vh; margin-top:1vh;}
+
+#menu .logo{
+    float:right;
+    font-family: Rafael;
+    font-weight: bold;
+    font-size: x-large;    
+    color: #fff;
+}
+
+#menu a:link, a:visited, a:active{
+    padding: 2vh;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Rafael;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    padding: 2vh;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Rafael;
+    font-weight: bold;
+}
+
+#header{
+    margin:0;
+    background-image: url("/img/head3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 110vh;
+}
+
+#when{
+    margin:0;
+    margin-top: -5vh;
+    background-image: url(/img/paper.png);
+    background-repeat: repeat;
+    padding: 3vw;
+}
+
+#when h1{
+    font-family: Hand;
+    color: #0D4D4D;
+    font-weight: bold;
+    font-size: 6vw;
+    padding-bottom: 0;
+    margin-bottom:0;
+}
+
+#unico{
+    margin:0;
+    background-image: url("/img/unicopiscina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+#noivos{
+    color: #043030;
+    text-justify: newspaper;
+    
+}
+
+#noivos .container{
+        display: flex;
+        flex-direction: row;
+        flex:1;
+        flex-wrap: wrap;
+        align-items: center;
+    justify-content: start;
+    background-color: #3B9086;
+}
+
+#noivos .container .imagem{
+    background-image: url(/img/noivos.jpg);
+    background-size: cover;
+    width:48vw;
+    min-height:90vh;
+}
+
+
+#noivos .container .texto{
+    width:45vw;
+    padding: 2vw;
+}
+
+#noivos h1{
+    font-family: hand;
+    font-size: 6vw;
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+#dicas{
+    background-image: url(/img/paper.png);
+    background-repeat: repeat;
+    padding: 3vw;
+}
+
+#dicas .container {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#dicas h1{
+    font-family: Hand;
+    color: #0D4D4D;
+    font-weight: bold;
+    font-size: 6vw;
+    padding-bottom: 0;
+    margin-bottom:0;
+}
+
+#dicas titulo{
+    color: #0D4D4D;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#lista{
+    background-color: #0D4D4D;
+    padding: 2vw;;
+}
+
+#lista h1{
+    font-family: Hand;
+    color: #fff;
+    font-size: 6vw;
+}
+
+#lista .box{
+    background-color: #fff;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding:1vw;
+    border: 5px solid #3B9086;
+    box-shadow: 0 0 1vw #012222;
+}
